@@ -14,7 +14,7 @@ In this notebook, I'll be finetuning the [distilbert-base-uncased](https://huggi
  
 You can install Pytorch from its website. As for the rest two, you can just run the first cell of the notebook.
 
-## Abput the trained model
+## About the trained model
 The model was trained on 4000 samples from the IMDB Dataset. It gave the following metrics on evaluation:
 ```
 {
