@@ -25,7 +25,7 @@ The model was trained on 4000 samples from the IMDB Dataset. It gave the followi
 }
 ```
 ## Loading the saved model
-The saved model is provided in the repository. Just use the Python code below to load it:
+The saved model can be downloaded from [here](https://drive.google.com/file/d/1R4oKxOX75dTivjrBMMpdClBReVzpHoQa/view?usp=sharing). Just use the Python code below to load it:
 ```
 model = torch.load('finetuned_bert_model')
 tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
